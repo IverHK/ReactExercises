@@ -9,7 +9,10 @@ import List from './List.jsx';
 import MyComponent from './OnClickHooks.jsx';
 import Counter from './Counter.jsx';
 import NextComponent from './OnChangeInputHooks.jsx';
-
+import UpdateObject from './UpdateObjects.jsx';
+import UpdateStateArray from './UpdateArrayState.jsx';
+import ArrayObjectState from './UpdateArrayObjectsState.jsx';
+import HooksUseEffect from './HooksUseEffect.jsx';
 
 
 function App() {
@@ -32,6 +35,11 @@ function App() {
       <Header />
       <UserGreeting isLoggedIn={true} username="Iver"/>
       <UserGreeting isLoggedIn={true}/>
+      <HooksUseEffect />
+      <ArrayObjectState />
+      <UpdateStateArray />
+      <UpdateObject />
+
       <NextComponent />
       <Counter />
       <MyComponent />
