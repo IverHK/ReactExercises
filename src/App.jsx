@@ -13,7 +13,9 @@ import UpdateObject from './UpdateObjects.jsx';
 import UpdateStateArray from './UpdateArrayState.jsx';
 import ArrayObjectState from './UpdateArrayObjectsState.jsx';
 import HooksUseEffect from './HooksUseEffect.jsx';
-
+import HooksUseContext from './HooksUseRef.jsx';
+import ComponentA from './componentA.jsx';
+import HooksUseRef from './HooksUseRef.jsx';
 
 function App() {
   const fruits = [
@@ -35,6 +37,9 @@ function App() {
       <Header />
       <UserGreeting isLoggedIn={true} username="Iver"/>
       <UserGreeting isLoggedIn={true}/>
+      <HooksUseRef />
+      <ComponentA />
+      <HooksUseContext />
       <HooksUseEffect />
       <ArrayObjectState />
       <UpdateStateArray />
